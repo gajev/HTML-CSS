@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+section {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.text {
+    font-size: 24px;
+}
+ul {
+    background-color: #444;
+    text-align: left;
+    padding-left: 100px;
+    margin: 0px;
+    list-style: none;
+}
+
+li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #444;
+    text-align: left;
+    padding-left: 300px;
+    margin: 0px;
+    color: #ffffff;
+}
