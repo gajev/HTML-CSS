@@ -1,0 +1,88 @@
+html {
+    font: 16px/1.5 Verdana, sans-serif ;
+}
+
+body {
+    background: rgb(238, 238, 238);  
+}
+
+.page main {
+    flex: 1 1 70%;
+}
+
+.page aside {
+    flex: 1 1 25%;
+    
+}
+
+li {
+    list-style: square;
+}
+a {
+    text-decoration: none;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80em;
+    margin: 1em auto;
+    gap: 2em;
+}
+
+.page header {
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+img {
+    background: white;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(0, 154, 0);
+}
+
+.allign-right {
+    display: block;
+    float: right;
+    margin: 0 0 1em 1em;
+    padding: 0.5em;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.allign-left {
+    display: block;
+    float: left;
+    margin: 0 1em 1em 0;
+    padding: 0.5em;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.quote {
+    display: flex;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-left: 4px solid lightgrey;
+    padding-left: 2em;
+    min-width: auto;
+    color: #383636dd;
+}
+
+.quote p, blockquote {
+    flex: 1;
+}
+
+

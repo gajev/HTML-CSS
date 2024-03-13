@@ -1,0 +1,32 @@
+body {
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container ul{ 
+    display: flex;
+    gap: 1em;
+}
+
+.container li {
+    width: 10em;
+    height: 25em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0.5em rgba(0, 0, 0, 0.2);
+    transition: width 0.3s ease-in-out;
+}
+.container img {
+    width: auto;
+    height: 100%;
+}
+
+.container li:hover {
+    width: 30em;
+    border-left: solid 20px black;
+    border-right: solid 20px black;
+    border-radius: 0.5em;
+}

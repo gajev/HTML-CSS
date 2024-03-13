@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    background-color: #ddd;
+    padding: 4em;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    
+}
+
+.gallery li {
+    display: flex;
+    border: 6px solid black;
+    padding: 3em 1.5em;
+    background-color: white;
+    list-style: none;
+    align-items: center;
+    box-shadow: 0 0 1.2em rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 1.3em rgba(0, 0, 0, 0.4) inset;
+}
+
+.gallery img {
+    display: block;
+}
