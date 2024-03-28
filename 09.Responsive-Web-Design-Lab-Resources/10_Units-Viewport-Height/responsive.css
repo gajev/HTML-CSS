@@ -1,0 +1,12 @@
+@media (max-width: 430px) {
+
+  body{
+    width: 80vw;
+  }
+
+  img{
+    width: 80vw;
+    height: 70vw;
+  }
+}
+
