@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 3em;
+    height: 100%;
+    max-width: 1920px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(208, 25, 25);
+    color: white;
+    padding: 1em;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media li{
+    list-style: none;
+}
+
+.social-media a{
+    display: none;
+}
+
+.social-media i{
+    padding: 0.3em;
+}
+
+.site-nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 5em;
+}
+
+.site-nav ul li{
+    padding: 2em;
+}
+
+.hero h1, p {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    letter-spacing: 2.5px;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    padding: 2em;
+}
+
+.button a{
+    display: inline-block;
+    padding: 0.5em;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none; 
+  }
+
+  .hero {
+    color: white;
+    padding-bottom: 15em;
+    background-image: url(/image/fitness-main.jpg);
+  }
+
+  h2 {
+    text-align: center;
+    padding: 1em;
+    text-decoration: underline 1px red;
+  }
+
+  .services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3em;
+  }
+
+  .article-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .article-services img {
+    max-width: 15%;
+    height: auto;
+  }
+  .article-services img, h3, p {
+    padding: 0.5em;
+  }
+
+  .article-services h3 {
+    padding: 0.5em;
+    color: rgb(208, 25, 25);
+  }
+
+.article-coaches {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+.coaches {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(239, 239, 239);
+        padding-bottom: 3em;
+      }
+.article-coaches {
+    max-width: 30%;
+}
+.article-coaches img {
+        max-width: 100%;
+        height: auto;
+      }
+.article-coaches img, h3, p {
+        padding: 0.5em;
+      }
+
+.article-coaches p {
+    color: rgb(182, 202, 239);
+}
+
+.article-coaches h3 {
+    padding: 0.5em;
+    color: rgb(208, 25, 25);
+  }
+#name {
+    color: black;
+    font-weight:bold;
+}
+
+.title-coaches {
+    background-color: rgb(239, 239, 239);
+}
+
+.site-footer {
+    background-color: rgb(208, 25, 25);
+    text-align: center;
+}
+
+
